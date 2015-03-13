@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2C470597-0F92-446E-9807-5E0A6E613FF0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CCDropboxApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D7B2531E7B715879BBD933B10D54747584D0187E</key>
+		<string>https://github.com/miteshbhadrecha85/CodeChallenge-exercise.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CCDropboxApp/CCDropboxApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D7B2531E7B715879BBD933B10D54747584D0187E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/miteshbhadrecha85/CodeChallenge-exercise.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D7B2531E7B715879BBD933B10D54747584D0187E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D7B2531E7B715879BBD933B10D54747584D0187E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CodeChallenge-exercise</string>
+		</dict>
+	</array>
+</dict>
+</plist>
