@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-CCDropboxApp-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CCDropboxApp-Dropbox-iOS-SDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CCDropboxApp-MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CCDropboxApp.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0321BEE1A62603D17A197097</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4E23ED04592D24566F951CEF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>678F79F4D8B46FC7423C6F16</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B87D13D76F70B90D8699C209</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

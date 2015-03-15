@@ -1,0 +1,1069 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D90B3E824CEE81583EA7DB /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0DC7F7994A1E589A53FEE7 /* AFURLRequestSerialization.m */; };
+		07B0EDB2BC080142B87210D8 /* Pods-CCDropboxApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C225FF58E80C4FEBA999D17 /* Pods-CCDropboxApp-dummy.m */; };
+		0E596692CCED056F8513E1FB /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 851A825B7A40AD3E6FDD6F2E /* UIRefreshControl+AFNetworking.m */; };
+		130C82BCEEBCAC3C933A0653 /* DBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E29E849535D9D2A45C9022 /* DBRequest.h */; };
+		13978BA981AAC5EFBE084FFA /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C2A59E3A3C90E653E0AF85 /* UIActivityIndicatorView+AFNetworking.m */; };
+		164CFA8241A4D2F8FEC78739 /* DBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = ED5F51DC8FB6F2E51B2FCB26 /* DBJSON.h */; };
+		1B9A3829C42A604F70B2559A /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BFA89EE1EAFDB041E2C281E9 /* AFURLSessionManager.h */; };
+		201EDD058ECFDA39118AC9D7 /* Pods-CCDropboxApp-Dropbox-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8D89DD40AB0F2AAFFD3E56 /* Pods-CCDropboxApp-Dropbox-iOS-SDK-dummy.m */; };
+		21FE6281385D1FE2C0369970 /* Pods-CCDropboxApp-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C98707B519B989CAB3C968 /* Pods-CCDropboxApp-AFNetworking-dummy.m */; };
+		252217D745C5CB17205FBE79 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FBCACCF712C8AF7658937B4 /* AFURLConnectionOperation.h */; };
+		2D199E4465C5AC61BE6B64E1 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC846C2A1FD3C9307861E76 /* AFHTTPSessionManager.m */; };
+		3340E5F2786B241CDF2039AA /* MPOAuthParameterFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = C9C4E2549B6995C25C91EC39 /* MPOAuthParameterFactory.h */; };
+		3DCE63BD3A18D376C0809FBF /* MPURLRequestParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0821675ABCE4D96C0732445B /* MPURLRequestParameter.h */; };
+		44F80450350B79512643A7DC /* DropboxSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9787F15E78674CC946864560 /* DropboxSDK.h */; };
+		45A491ADAB6B628595D641C6 /* MPOAuthCredentialConcreteStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C0801C59F11074B1BBB400 /* MPOAuthCredentialConcreteStore.h */; };
+		473EE2ADF6F4F5817C73C09E /* MPOAuthURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D147B85CB15D583318FFF76 /* MPOAuthURLRequest.h */; };
+		4C5A8F1B21FD9F76C594CBC8 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B765F70C23631DB421E985 /* AFNetworkActivityIndicatorManager.h */; };
+		4E6067B44D67AAA70AB7EC72 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F67D3885675B84FCA2825A8D /* AFURLConnectionOperation.m */; };
+		4F0F93ED37FD0FD686BE2622 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 410C19D93C0E12DDA64616BE /* AFURLRequestSerialization.h */; };
+		5277B96DC206E68EAC67D344 /* DBDeltaEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B28C957BFB3DBAFFB2CF4F /* DBDeltaEntry.h */; };
+		54A26DA69ED434F9C63533F6 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FD0E098086219569F1A612 /* UIActivityIndicatorView+AFNetworking.h */; };
+		5AAFBAAA069CBBD9DB7FD33E /* MPOAuthAPIRequestLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 30014AB91923CED276508CA2 /* MPOAuthAPIRequestLoader.h */; };
+		5AD847EC7EBB02C3F61627AE /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = F1945A9EA87821C8648836C6 /* JSON.h */; };
+		5D4EE2659A313FE0A42472AE /* MPOAuthCredentialStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE4A7100E2409CF8A75D527 /* MPOAuthCredentialStore.h */; };
+		5F86A174F00F6601A1C9AF32 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAFFA5302E20A9B8B192EBC /* AFHTTPRequestOperation.m */; };
+		6505F65AAFA24E52DCBF1DB2 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A2F78D71AEF57B3B86EA0A /* UIImageView+AFNetworking.m */; };
+		651D901C00294F19E850DB67 /* DBQuota.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E7EB50AF9DAB8A5D8F668B4 /* DBQuota.h */; };
+		6590337AAB2A4DCD8476243D /* MPOAuthSignatureParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 60D529E0E1B5C1F6F71AEA87 /* MPOAuthSignatureParameter.h */; };
+		69D3BE3BDACC02BF1B2F23DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF5BEF825BACF22F83D2677 /* CoreGraphics.framework */; };
+		70A62664DD2395631E27501E /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 252A149649E249AD594A018A /* AFNetworking.h */; };
+		729E3C963943F822EE93EA58 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FA67EFBCE6B0A89192F869 /* AFNetworkReachabilityManager.m */; };
+		72F5756C58CDAB14F0D7560D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43262BA84F94DB1273FA7A81 /* Security.framework */; };
+		74963DA2F3554384C59BD7C8 /* DBLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 3352728353BCAC35028AC5E4 /* DBLog.h */; };
+		785AAB67DB29B9234BBE3F03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E1160FDBB607BB28DC30AB /* Foundation.framework */; };
+		78E1442219E300227DA53C3B /* NSString+Dropbox.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4832BF12EC06DCBB1BF80B /* NSString+Dropbox.h */; };
+		79D436F59AD04B861EA1CE8F /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C51F1A54392662072E6965AE /* UIKit+AFNetworking.h */; };
+		7B676B4D1C050CBD95963538 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F7CBCBAAAF6C1E34EC296A41 /* UIProgressView+AFNetworking.h */; };
+		7BF259DAFAD85574E9D7222D /* DBBase64Transcoder.h in Headers */ = {isa = PBXBuildFile; fileRef = FA065C917A94D84ADDCD1798 /* DBBase64Transcoder.h */; };
+		7DB8C362C2984D4A54D1575B /* NSURLResponse+Encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C0F9508280DAB85300D5B3 /* NSURLResponse+Encoding.h */; };
+		7DD703F65AFF41B439771570 /* MPOAuthAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5179366141104EF3067E4338 /* MPOAuthAPI.h */; };
+		822DED614682107A5F2FF171 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0B1B9DE3B41518640C6FC2 /* SystemConfiguration.framework */; };
+		82A767442BC6CA76F9E0E25A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF5BEF825BACF22F83D2677 /* CoreGraphics.framework */; };
+		83628ED9A58B41B71F971720 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B19730462B59DE51436F762 /* UIRefreshControl+AFNetworking.h */; };
+		868DF644E1F011DBEFAB001F /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 90EEF54395BCBEEEF33C4E9D /* AFNetworkReachabilityManager.h */; };
+		88EA0B6620FCC104160A32DF /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C8000E9E5341E4BD43BAB143 /* UIProgressView+AFNetworking.m */; };
+		894786E332B9F2F9BC48C498 /* DBRestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F3183101D5721CDE7F6F37A /* DBRestClient.h */; };
+		8BBB78BDB3098FE75EC69137 /* DBAccountInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A25157652FCCC51096D26993 /* DBAccountInfo.h */; };
+		8BFEA559973E732F4C9452DB /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC35EBA62D5E7B00D2D4C4E /* UIWebView+AFNetworking.m */; };
+		911528A8A73C44906A70CDFC /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 13F5E88BB3F8BE52B4F50EE6 /* AFHTTPRequestOperationManager.h */; };
+		927D389B20956F1525972C93 /* NSDictionary+Dropbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4DAE30D29095B25F226B87 /* NSDictionary+Dropbox.h */; };
+		9B6B9052D1791B7AAC9726C5 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 88905ED6BE3273B3DC4AC28B /* UIAlertView+AFNetworking.m */; };
+		A23FBF953C22CACDEB029B97 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = BA4F0A588C4AF1A0F4C1BA4C /* AFHTTPRequestOperation.h */; };
+		A292950A1B082C30AEFBA5C7 /* DBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3A81042E62B15E38710601 /* DBJsonParser.h */; };
+		A5A22E9479E5E68F3D46747B /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA28F768AB60721EB6E92F0 /* AFSecurityPolicy.h */; };
+		A5FB6AE6821EA04C800B95D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E1160FDBB607BB28DC30AB /* Foundation.framework */; };
+		A9BDC31DC8BC2E356540358B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43262BA84F94DB1273FA7A81 /* Security.framework */; };
+		A9C53AA910254C5DE68ADBE9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEDC0282635B3B75D5A12CE /* QuartzCore.framework */; };
+		AA90904241477359FC801E2C /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E178B30B2E74C730E85C32E6 /* AFNetworkActivityIndicatorManager.m */; };
+		AF4E40B84BEEDE019EFD08FC /* Pods-CCDropboxApp-MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0E4D9007A3EF420D9D0602 /* Pods-CCDropboxApp-MBProgressHUD-dummy.m */; };
+		B0B0A5F9831001113BE40B5A /* MPOAuthAuthenticationMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 351DB4D283E4A9E4D7AECD15 /* MPOAuthAuthenticationMethod.h */; };
+		B12763DEDABC20E5208363D1 /* MPOAuthURLResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E688B7296B163D2AAFCB84 /* MPOAuthURLResponse.h */; };
+		B1B5DCAABC8DB0BEE712E047 /* MPOAuthAuthenticationMethodOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FB9C39168F51C6783FB2E30 /* MPOAuthAuthenticationMethodOAuth.h */; };
+		B240C0E524E8F0B151D8D168 /* DBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = E4814BABD27AC1366383D8CA /* DBJsonWriter.h */; };
+		B566B4990A618C4038EEC481 /* DBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D4A53450EB18B428ABB80C9 /* DBJsonBase.h */; };
+		B698416D3AF693B917853590 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D5852785CCE24ABAD4D3DAF0 /* UIButton+AFNetworking.m */; };
+		BAB7BE1CC031616970C0D8D7 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8C83BC45B62AAC0756CDDD /* AFURLResponseSerialization.m */; };
+		BBE7A83AA32B6C00FB5CE576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E1160FDBB607BB28DC30AB /* Foundation.framework */; };
+		BD4A6F1C9B2391E1D91D1A2A /* MPOAuthConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CFD4A629B158422A6AA13E /* MPOAuthConnection.h */; };
+		C22E363F24ACBD8D3793778C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 139E0AA2706C4288C144C954 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C268B051D3A9ACAC657F31E2 /* MPOAuthCredentialConcreteStore+KeychainAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7CC912476A40A781AE058B6 /* MPOAuthCredentialConcreteStore+KeychainAdditions.h */; };
+		C41721EB7CB7F6A14EF732E7 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 43AC8C8C80C58BCAEF55E07F /* AFURLResponseSerialization.h */; };
+		C7F603C7C5E259F0951604D5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F704EB074632B2A38CD2CEF2 /* MobileCoreServices.framework */; };
+		C96F29127C1A8B785D790D64 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD97830AD30B34F3F296D21 /* AFURLSessionManager.m */; };
+		CB27B4F212E7A3DFCCC31F4F /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E39E09ECE0BB95C730F02AA /* UIImageView+AFNetworking.h */; };
+		CF342F495F6AD56D82100C94 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B95DA85D46D49A95B7EA9FDD /* UIAlertView+AFNetworking.h */; };
+		D1AD47E7B3DAEE29695E2CA2 /* NSString+URLEscapingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E24D816EDA8B25C1477BB55D /* NSString+URLEscapingAdditions.h */; };
+		D1E9F2409ED9CB7A029278A4 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB1A94E20A342CCDB8E3F2B /* DropboxSDK.framework */; };
+		D42629E1B075565E72E5EEFC /* DBSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 1583B2F2088331278863AB25 /* DBSession.h */; };
+		D4E85FF21407B6B1A1B40F3B /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A26FFBF2E17B35D6A5EE79B6 /* AFSecurityPolicy.m */; };
+		D5E733FF188B14674DF9D406 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E1160FDBB607BB28DC30AB /* Foundation.framework */; };
+		D6D027078405C07BEBC39F32 /* DBMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EE4F79B6D4AA08478F2F9FE /* DBMetadata.h */; };
+		DFC739C82D22C03D580494A1 /* MPOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 293B28A02633C02528C3BCB1 /* MPOAuth.h */; };
+		E04B95B426DE8DD3912A3E63 /* MPDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 58F05C6EE27C40BBA8EC7906 /* MPDebug.h */; };
+		E0B8F8E11AD2E6807A90B099 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 01671FF5E1983A1D0A81AC68 /* AFHTTPSessionManager.h */; };
+		E7BC87FF60C074854B994013 /* DBSession+iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 5323385B7BFD160C37E3352E /* DBSession+iOS.h */; };
+		E806DD99B6B3F0D1D5D727B9 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3365BE32C27D368A77230CAC /* UIWebView+AFNetworking.h */; };
+		EC83B462C2C32938E8EE19A1 /* DBError.h in Headers */ = {isa = PBXBuildFile; fileRef = 973E309320973277A307CDF6 /* DBError.h */; };
+		ED7BDC3812572C9B6AF6304D /* DBDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF6D4BC1092365CDB8D0E20 /* DBDefines.h */; };
+		EF36A83482EDC33B8030C72B /* NSURL+MPURLParameterAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 043378AEF6BE78C063C8C5E9 /* NSURL+MPURLParameterAdditions.h */; };
+		F0D0450CCBA0EB875C329A0E /* NSString+DBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 718F4AC282532507A96CA366 /* NSString+DBJSON.h */; };
+		F0E82550660DB639CBB9274B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 124FF67DE28203195EA5150D /* UIButton+AFNetworking.h */; };
+		F201E25FD253C8A16AC2A8B2 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3EA6DB698DFBAAEA8F86FC /* AFHTTPRequestOperationManager.m */; };
+		F2E04A1467BA43D4E5D4AE02 /* NSObject+DBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF1D710E917F516B54B4FC6 /* NSObject+DBJSON.h */; };
+		F63F8B73ACC387F7F3D88431 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC3E841F91A2D027579D427 /* MBProgressHUD.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C4C4B651C31D9523E79A379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7666E48F8CD56FC476B75715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0321BEE1A62603D17A197097;
+			remoteInfo = "Pods-CCDropboxApp-Dropbox-iOS-SDK";
+		};
+		8E23E70F809EF04A9C5E4E7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7666E48F8CD56FC476B75715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 678F79F4D8B46FC7423C6F16;
+			remoteInfo = "Pods-CCDropboxApp-AFNetworking";
+		};
+		F8F0E1D0484CF704F61A6906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7666E48F8CD56FC476B75715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E23ED04592D24566F951CEF;
+			remoteInfo = "Pods-CCDropboxApp-MBProgressHUD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01671FF5E1983A1D0A81AC68 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		043378AEF6BE78C063C8C5E9 /* NSURL+MPURLParameterAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+MPURLParameterAdditions.h"; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/NSURL+MPURLParameterAdditions.h"; sourceTree = "<group>"; };
+		06C2A59E3A3C90E653E0AF85 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		0821675ABCE4D96C0732445B /* MPURLRequestParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPURLRequestParameter.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/MPURLRequestParameter.h"; sourceTree = "<group>"; };
+		0AF1D710E917F516B54B4FC6 /* NSObject+DBJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+DBJSON.h"; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/NSObject+DBJSON.h"; sourceTree = "<group>"; };
+		0FB9C39168F51C6783FB2E30 /* MPOAuthAuthenticationMethodOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOAuthAuthenticationMethodOAuth.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/MPOAuthAuthenticationMethodOAuth.h"; sourceTree = "<group>"; };
+		11400D81BB3FBFF134978542 /* Pods-CCDropboxApp-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCDropboxApp-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		124FF67DE28203195EA5150D /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		139E0AA2706C4288C144C954 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		13F5E88BB3F8BE52B4F50EE6 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		145C55F56FA8B1C2D2C91C28 /* libPods-CCDropboxApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCDropboxApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		157BE74E6DE6865F7072247B /* libPods-CCDropboxApp-MBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCDropboxApp-MBProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1583B2F2088331278863AB25 /* DBSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBSession.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/DBSession.h"; sourceTree = "<group>"; };
+		15C0801C59F11074B1BBB400 /* MPOAuthCredentialConcreteStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOAuthCredentialConcreteStore.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/MPOAuthCredentialConcreteStore.h"; sourceTree = "<group>"; };
+		1AF5FEFB330B08990ACB86CA /* Pods-CCDropboxApp-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCDropboxApp-environment.h"; sourceTree = "<group>"; };
+		1E7EB50AF9DAB8A5D8F668B4 /* DBQuota.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBQuota.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/DBQuota.h"; sourceTree = "<group>"; };
+		252A149649E249AD594A018A /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		293B28A02633C02528C3BCB1 /* MPOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOAuth.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/MPOAuth.h"; sourceTree = "<group>"; };
+		2A2E0FB0A8FDDDFBBAFE7FCF /* Pods-CCDropboxApp-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCDropboxApp-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		2BD97830AD30B34F3F296D21 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		2D4A53450EB18B428ABB80C9 /* DBJsonBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBJsonBase.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/DBJsonBase.h"; sourceTree = "<group>"; };
+		30014AB91923CED276508CA2 /* MPOAuthAPIRequestLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOAuthAPIRequestLoader.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/MPOAuthAPIRequestLoader.h"; sourceTree = "<group>"; };
+		3352728353BCAC35028AC5E4 /* DBLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBLog.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/DBLog.h"; sourceTree = "<group>"; };
+		3365BE32C27D368A77230CAC /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		351DB4D283E4A9E4D7AECD15 /* MPOAuthAuthenticationMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOAuthAuthenticationMethod.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/MPOAuthAuthenticationMethod.h"; sourceTree = "<group>"; };
+		3F31E9642F50A27DE34CDEE2 /* libPods-CCDropboxApp-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCDropboxApp-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410C19D93C0E12DDA64616BE /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		43262BA84F94DB1273FA7A81 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		43AC8C8C80C58BCAEF55E07F /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		43C0F9508280DAB85300D5B3 /* NSURLResponse+Encoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLResponse+Encoding.h"; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/NSURLResponse+Encoding.h"; sourceTree = "<group>"; };
+		43D29838633845595A34BB30 /* Pods-CCDropboxApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCDropboxApp.debug.xcconfig"; sourceTree = "<group>"; };
+		47CFD4A629B158422A6AA13E /* MPOAuthConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOAuthConnection.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/MPOAuthConnection.h"; sourceTree = "<group>"; };
+		4DB1A94E20A342CCDB8E3F2B /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DropboxSDK.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/DropboxSDK.framework; sourceTree = DEVELOPER_DIR; };
+		4EE4F79B6D4AA08478F2F9FE /* DBMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBMetadata.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/DBMetadata.h"; sourceTree = "<group>"; };
+		4FBCACCF712C8AF7658937B4 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		4FE4A7100E2409CF8A75D527 /* MPOAuthCredentialStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOAuthCredentialStore.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/MPOAuthCredentialStore.h"; sourceTree = "<group>"; };
+		5179366141104EF3067E4338 /* MPOAuthAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOAuthAPI.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/MPOAuthAPI.h"; sourceTree = "<group>"; };
+		5323385B7BFD160C37E3352E /* DBSession+iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DBSession+iOS.h"; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/DBSession+iOS.h"; sourceTree = "<group>"; };
+		58F05C6EE27C40BBA8EC7906 /* MPDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPDebug.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/MPDebug.h"; sourceTree = "<group>"; };
+		5C8E9B6D79C5DC0BAA86DEFB /* Pods-CCDropboxApp-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCDropboxApp-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		5E39E09ECE0BB95C730F02AA /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		5F3183101D5721CDE7F6F37A /* DBRestClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBRestClient.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/DBRestClient.h"; sourceTree = "<group>"; };
+		60D529E0E1B5C1F6F71AEA87 /* MPOAuthSignatureParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOAuthSignatureParameter.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/MPOAuthSignatureParameter.h"; sourceTree = "<group>"; };
+		62F8B7AB1E1C2C88DDA5E2E2 /* Pods-CCDropboxApp-Dropbox-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCDropboxApp-Dropbox-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
+		63FA67EFBCE6B0A89192F869 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		68E1160FDBB607BB28DC30AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D320BB49ECBC22F7900E0DF /* Pods-CCDropboxApp-MBProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCDropboxApp-MBProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		6E0DC7F7994A1E589A53FEE7 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		6F85D951444A49E2A776CA01 /* Pods-CCDropboxApp-Dropbox-iOS-SDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCDropboxApp-Dropbox-iOS-SDK-Private.xcconfig"; sourceTree = "<group>"; };
+		718F4AC282532507A96CA366 /* NSString+DBJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DBJSON.h"; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/NSString+DBJSON.h"; sourceTree = "<group>"; };
+		7D147B85CB15D583318FFF76 /* MPOAuthURLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOAuthURLRequest.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/MPOAuthURLRequest.h"; sourceTree = "<group>"; };
+		7FC35EBA62D5E7B00D2D4C4E /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		805273BFA2A38C2BD0D4BDD3 /* Pods-CCDropboxApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCDropboxApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		851A825B7A40AD3E6FDD6F2E /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		87AF1030622FADFDE678C72F /* Pods-CCDropboxApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCDropboxApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88905ED6BE3273B3DC4AC28B /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		8A4DAE30D29095B25F226B87 /* NSDictionary+Dropbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Dropbox.h"; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/NSDictionary+Dropbox.h"; sourceTree = "<group>"; };
+		8CA28F768AB60721EB6E92F0 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		90EEF54395BCBEEEF33C4E9D /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		94B28C957BFB3DBAFFB2CF4F /* DBDeltaEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBDeltaEntry.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/DBDeltaEntry.h"; sourceTree = "<group>"; };
+		973E309320973277A307CDF6 /* DBError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBError.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/DBError.h"; sourceTree = "<group>"; };
+		9787F15E78674CC946864560 /* DropboxSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DropboxSDK.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/DropboxSDK.h"; sourceTree = "<group>"; };
+		9B19730462B59DE51436F762 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		9C225FF58E80C4FEBA999D17 /* Pods-CCDropboxApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCDropboxApp-dummy.m"; sourceTree = "<group>"; };
+		A25157652FCCC51096D26993 /* DBAccountInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBAccountInfo.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/DBAccountInfo.h"; sourceTree = "<group>"; };
+		A26FFBF2E17B35D6A5EE79B6 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		A4C8A61C2C4B5AC1B941976B /* Pods-CCDropboxApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCDropboxApp.release.xcconfig"; sourceTree = "<group>"; };
+		A5FD0E098086219569F1A612 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		A7C4C4FEEC6883280B996C4E /* libPods-CCDropboxApp-Dropbox-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCDropboxApp-Dropbox-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8D89DD40AB0F2AAFFD3E56 /* Pods-CCDropboxApp-Dropbox-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCDropboxApp-Dropbox-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
+		AFAFFA5302E20A9B8B192EBC /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		B6C98707B519B989CAB3C968 /* Pods-CCDropboxApp-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCDropboxApp-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		B95DA85D46D49A95B7EA9FDD /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		BA0E4D9007A3EF420D9D0602 /* Pods-CCDropboxApp-MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCDropboxApp-MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		BA4F0A588C4AF1A0F4C1BA4C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		BD3A81042E62B15E38710601 /* DBJsonParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBJsonParser.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/DBJsonParser.h"; sourceTree = "<group>"; };
+		BF9128617E1D586096D0FF9A /* Pods-CCDropboxApp-Dropbox-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCDropboxApp-Dropbox-iOS-SDK-prefix.pch"; sourceTree = "<group>"; };
+		BFA89EE1EAFDB041E2C281E9 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		C1A2F78D71AEF57B3B86EA0A /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		C51F1A54392662072E6965AE /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		C69F278E6A042CAB41A7A70B /* Pods-CCDropboxApp-MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCDropboxApp-MBProgressHUD.xcconfig"; sourceTree = "<group>"; };
+		C8000E9E5341E4BD43BAB143 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		C9C4E2549B6995C25C91EC39 /* MPOAuthParameterFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOAuthParameterFactory.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/MPOAuthParameterFactory.h"; sourceTree = "<group>"; };
+		CAC846C2A1FD3C9307861E76 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CC8C83BC45B62AAC0756CDDD /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		CCF6D4BC1092365CDB8D0E20 /* DBDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBDefines.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/DBDefines.h"; sourceTree = "<group>"; };
+		CE3EA6DB698DFBAAEA8F86FC /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		D2B765F70C23631DB421E985 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		D42E1AF1E48CE30A391F830D /* Pods-CCDropboxApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCDropboxApp-resources.sh"; sourceTree = "<group>"; };
+		D5852785CCE24ABAD4D3DAF0 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		D5E29E849535D9D2A45C9022 /* DBRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBRequest.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/DBRequest.h"; sourceTree = "<group>"; };
+		D5E688B7296B163D2AAFCB84 /* MPOAuthURLResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPOAuthURLResponse.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/MPOAuthURLResponse.h"; sourceTree = "<group>"; };
+		DAEDC0282635B3B75D5A12CE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E178B30B2E74C730E85C32E6 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		E24D816EDA8B25C1477BB55D /* NSString+URLEscapingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+URLEscapingAdditions.h"; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/NSString+URLEscapingAdditions.h"; sourceTree = "<group>"; };
+		E4814BABD27AC1366383D8CA /* DBJsonWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBJsonWriter.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/DBJsonWriter.h"; sourceTree = "<group>"; };
+		E7CC912476A40A781AE058B6 /* MPOAuthCredentialConcreteStore+KeychainAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MPOAuthCredentialConcreteStore+KeychainAdditions.h"; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/MPOAuthCredentialConcreteStore+KeychainAdditions.h"; sourceTree = "<group>"; };
+		ED5F51DC8FB6F2E51B2FCB26 /* DBJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBJSON.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/DBJSON.h"; sourceTree = "<group>"; };
+		F1945A9EA87821C8648836C6 /* JSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/JSON.h"; sourceTree = "<group>"; };
+		F3E2E6552A132C421DE032BA /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F67D3885675B84FCA2825A8D /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		F704EB074632B2A38CD2CEF2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		F7CBCBAAAF6C1E34EC296A41 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		FA065C917A94D84ADDCD1798 /* DBBase64Transcoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBBase64Transcoder.h; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/DBBase64Transcoder.h"; sourceTree = "<group>"; };
+		FB0B1B9DE3B41518640C6FC2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		FC513CF206AC90079EE35A21 /* Pods-CCDropboxApp-MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCDropboxApp-MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		FCC3E841F91A2D027579D427 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FCF5BEF825BACF22F83D2677 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		FD4832BF12EC06DCBB1BF80B /* NSString+Dropbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Dropbox.h"; path = "dropbox-ios-sdk-1.3.5/DropboxSDK.framework/Headers/NSString+Dropbox.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DE16CB50573F4E64DCF1857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785AAB67DB29B9234BBE3F03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4050F35708346861B39CF683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D3BE3BDACC02BF1B2F23DF /* CoreGraphics.framework in Frameworks */,
+				A5FB6AE6821EA04C800B95D9 /* Foundation.framework in Frameworks */,
+				C7F603C7C5E259F0951604D5 /* MobileCoreServices.framework in Frameworks */,
+				A9BDC31DC8BC2E356540358B /* Security.framework in Frameworks */,
+				822DED614682107A5F2FF171 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868356015303888E6F0E53B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E9F2409ED9CB7A029278A4 /* DropboxSDK.framework in Frameworks */,
+				BBE7A83AA32B6C00FB5CE576 /* Foundation.framework in Frameworks */,
+				A9C53AA910254C5DE68ADBE9 /* QuartzCore.framework in Frameworks */,
+				72F5756C58CDAB14F0D7560D /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB050581C40B324FAA055D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A767442BC6CA76F9E0E25A /* CoreGraphics.framework in Frameworks */,
+				D5E733FF188B14674DF9D406 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15732B68C2C4BB601D3D4337 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FCC3E841F91A2D027579D427 /* MBProgressHUD.h */,
+				139E0AA2706C4288C144C954 /* MBProgressHUD.m */,
+				8708255E79801E580A369DE4 /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		1D94B25A7B953185B3F953F7 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				D2B765F70C23631DB421E985 /* AFNetworkActivityIndicatorManager.h */,
+				E178B30B2E74C730E85C32E6 /* AFNetworkActivityIndicatorManager.m */,
+				A5FD0E098086219569F1A612 /* UIActivityIndicatorView+AFNetworking.h */,
+				06C2A59E3A3C90E653E0AF85 /* UIActivityIndicatorView+AFNetworking.m */,
+				B95DA85D46D49A95B7EA9FDD /* UIAlertView+AFNetworking.h */,
+				88905ED6BE3273B3DC4AC28B /* UIAlertView+AFNetworking.m */,
+				124FF67DE28203195EA5150D /* UIButton+AFNetworking.h */,
+				D5852785CCE24ABAD4D3DAF0 /* UIButton+AFNetworking.m */,
+				5E39E09ECE0BB95C730F02AA /* UIImageView+AFNetworking.h */,
+				C1A2F78D71AEF57B3B86EA0A /* UIImageView+AFNetworking.m */,
+				C51F1A54392662072E6965AE /* UIKit+AFNetworking.h */,
+				F7CBCBAAAF6C1E34EC296A41 /* UIProgressView+AFNetworking.h */,
+				C8000E9E5341E4BD43BAB143 /* UIProgressView+AFNetworking.m */,
+				9B19730462B59DE51436F762 /* UIRefreshControl+AFNetworking.h */,
+				851A825B7A40AD3E6FDD6F2E /* UIRefreshControl+AFNetworking.m */,
+				3365BE32C27D368A77230CAC /* UIWebView+AFNetworking.h */,
+				7FC35EBA62D5E7B00D2D4C4E /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		266552A42389D634C94C7F9F /* Dropbox-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				A25157652FCCC51096D26993 /* DBAccountInfo.h */,
+				FA065C917A94D84ADDCD1798 /* DBBase64Transcoder.h */,
+				CCF6D4BC1092365CDB8D0E20 /* DBDefines.h */,
+				94B28C957BFB3DBAFFB2CF4F /* DBDeltaEntry.h */,
+				973E309320973277A307CDF6 /* DBError.h */,
+				ED5F51DC8FB6F2E51B2FCB26 /* DBJSON.h */,
+				2D4A53450EB18B428ABB80C9 /* DBJsonBase.h */,
+				BD3A81042E62B15E38710601 /* DBJsonParser.h */,
+				E4814BABD27AC1366383D8CA /* DBJsonWriter.h */,
+				3352728353BCAC35028AC5E4 /* DBLog.h */,
+				4EE4F79B6D4AA08478F2F9FE /* DBMetadata.h */,
+				1E7EB50AF9DAB8A5D8F668B4 /* DBQuota.h */,
+				D5E29E849535D9D2A45C9022 /* DBRequest.h */,
+				5F3183101D5721CDE7F6F37A /* DBRestClient.h */,
+				1583B2F2088331278863AB25 /* DBSession.h */,
+				5323385B7BFD160C37E3352E /* DBSession+iOS.h */,
+				9787F15E78674CC946864560 /* DropboxSDK.h */,
+				F1945A9EA87821C8648836C6 /* JSON.h */,
+				58F05C6EE27C40BBA8EC7906 /* MPDebug.h */,
+				293B28A02633C02528C3BCB1 /* MPOAuth.h */,
+				5179366141104EF3067E4338 /* MPOAuthAPI.h */,
+				30014AB91923CED276508CA2 /* MPOAuthAPIRequestLoader.h */,
+				351DB4D283E4A9E4D7AECD15 /* MPOAuthAuthenticationMethod.h */,
+				0FB9C39168F51C6783FB2E30 /* MPOAuthAuthenticationMethodOAuth.h */,
+				47CFD4A629B158422A6AA13E /* MPOAuthConnection.h */,
+				15C0801C59F11074B1BBB400 /* MPOAuthCredentialConcreteStore.h */,
+				E7CC912476A40A781AE058B6 /* MPOAuthCredentialConcreteStore+KeychainAdditions.h */,
+				4FE4A7100E2409CF8A75D527 /* MPOAuthCredentialStore.h */,
+				C9C4E2549B6995C25C91EC39 /* MPOAuthParameterFactory.h */,
+				60D529E0E1B5C1F6F71AEA87 /* MPOAuthSignatureParameter.h */,
+				7D147B85CB15D583318FFF76 /* MPOAuthURLRequest.h */,
+				D5E688B7296B163D2AAFCB84 /* MPOAuthURLResponse.h */,
+				0821675ABCE4D96C0732445B /* MPURLRequestParameter.h */,
+				8A4DAE30D29095B25F226B87 /* NSDictionary+Dropbox.h */,
+				0AF1D710E917F516B54B4FC6 /* NSObject+DBJSON.h */,
+				718F4AC282532507A96CA366 /* NSString+DBJSON.h */,
+				FD4832BF12EC06DCBB1BF80B /* NSString+Dropbox.h */,
+				E24D816EDA8B25C1477BB55D /* NSString+URLEscapingAdditions.h */,
+				043378AEF6BE78C063C8C5E9 /* NSURL+MPURLParameterAdditions.h */,
+				43C0F9508280DAB85300D5B3 /* NSURLResponse+Encoding.h */,
+				313EAE31A4E47B9A4C87ECBF /* Support Files */,
+			);
+			path = "Dropbox-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		313EAE31A4E47B9A4C87ECBF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62F8B7AB1E1C2C88DDA5E2E2 /* Pods-CCDropboxApp-Dropbox-iOS-SDK.xcconfig */,
+				6F85D951444A49E2A776CA01 /* Pods-CCDropboxApp-Dropbox-iOS-SDK-Private.xcconfig */,
+				AA8D89DD40AB0F2AAFFD3E56 /* Pods-CCDropboxApp-Dropbox-iOS-SDK-dummy.m */,
+				BF9128617E1D586096D0FF9A /* Pods-CCDropboxApp-Dropbox-iOS-SDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-CCDropboxApp-Dropbox-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		56383CC01C8D4EF874154E79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D17FF8110FC1D0AC6AB371A /* AFNetworking */,
+				266552A42389D634C94C7F9F /* Dropbox-iOS-SDK */,
+				15732B68C2C4BB601D3D4337 /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D6EEA87634EAFCCA08CDA15 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0D4A86991F1F9E4664FD2B9 /* Pods-CCDropboxApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6CF0BD9B19ADDC1ADE13A1DC /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				8CA28F768AB60721EB6E92F0 /* AFSecurityPolicy.h */,
+				A26FFBF2E17B35D6A5EE79B6 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		7A94BBE4455EFE8AD5F63B05 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				01671FF5E1983A1D0A81AC68 /* AFHTTPSessionManager.h */,
+				CAC846C2A1FD3C9307861E76 /* AFHTTPSessionManager.m */,
+				BFA89EE1EAFDB041E2C281E9 /* AFURLSessionManager.h */,
+				2BD97830AD30B34F3F296D21 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		7CF08E914D94FBA342A5A17A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A29AECA29D862B2E04142FF9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84E51DC4A7BF0D966C455CDE = {
+			isa = PBXGroup;
+			children = (
+				F3E2E6552A132C421DE032BA /* Podfile */,
+				7CF08E914D94FBA342A5A17A /* Frameworks */,
+				56383CC01C8D4EF874154E79 /* Pods */,
+				C5FF2D7BAFF922B6A2B6D147 /* Products */,
+				5D6EEA87634EAFCCA08CDA15 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8708255E79801E580A369DE4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C69F278E6A042CAB41A7A70B /* Pods-CCDropboxApp-MBProgressHUD.xcconfig */,
+				6D320BB49ECBC22F7900E0DF /* Pods-CCDropboxApp-MBProgressHUD-Private.xcconfig */,
+				BA0E4D9007A3EF420D9D0602 /* Pods-CCDropboxApp-MBProgressHUD-dummy.m */,
+				FC513CF206AC90079EE35A21 /* Pods-CCDropboxApp-MBProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-CCDropboxApp-MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		9D17FF8110FC1D0AC6AB371A /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				252A149649E249AD594A018A /* AFNetworking.h */,
+				B35479F7D18FA508A8E476B4 /* NSURLConnection */,
+				7A94BBE4455EFE8AD5F63B05 /* NSURLSession */,
+				AC317D3BFFA150F63673103F /* Reachability */,
+				6CF0BD9B19ADDC1ADE13A1DC /* Security */,
+				F0BEC4BB82D22AF7D17B2C1E /* Serialization */,
+				ABA89107BE0645A7FCB429BF /* Support Files */,
+				1D94B25A7B953185B3F953F7 /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A29AECA29D862B2E04142FF9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FCF5BEF825BACF22F83D2677 /* CoreGraphics.framework */,
+				4DB1A94E20A342CCDB8E3F2B /* DropboxSDK.framework */,
+				68E1160FDBB607BB28DC30AB /* Foundation.framework */,
+				F704EB074632B2A38CD2CEF2 /* MobileCoreServices.framework */,
+				DAEDC0282635B3B75D5A12CE /* QuartzCore.framework */,
+				43262BA84F94DB1273FA7A81 /* Security.framework */,
+				FB0B1B9DE3B41518640C6FC2 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ABA89107BE0645A7FCB429BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C8E9B6D79C5DC0BAA86DEFB /* Pods-CCDropboxApp-AFNetworking.xcconfig */,
+				2A2E0FB0A8FDDDFBBAFE7FCF /* Pods-CCDropboxApp-AFNetworking-Private.xcconfig */,
+				B6C98707B519B989CAB3C968 /* Pods-CCDropboxApp-AFNetworking-dummy.m */,
+				11400D81BB3FBFF134978542 /* Pods-CCDropboxApp-AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-CCDropboxApp-AFNetworking";
+			sourceTree = "<group>";
+		};
+		AC317D3BFFA150F63673103F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				90EEF54395BCBEEEF33C4E9D /* AFNetworkReachabilityManager.h */,
+				63FA67EFBCE6B0A89192F869 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		B35479F7D18FA508A8E476B4 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				BA4F0A588C4AF1A0F4C1BA4C /* AFHTTPRequestOperation.h */,
+				AFAFFA5302E20A9B8B192EBC /* AFHTTPRequestOperation.m */,
+				13F5E88BB3F8BE52B4F50EE6 /* AFHTTPRequestOperationManager.h */,
+				CE3EA6DB698DFBAAEA8F86FC /* AFHTTPRequestOperationManager.m */,
+				4FBCACCF712C8AF7658937B4 /* AFURLConnectionOperation.h */,
+				F67D3885675B84FCA2825A8D /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		C5FF2D7BAFF922B6A2B6D147 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				145C55F56FA8B1C2D2C91C28 /* libPods-CCDropboxApp.a */,
+				3F31E9642F50A27DE34CDEE2 /* libPods-CCDropboxApp-AFNetworking.a */,
+				A7C4C4FEEC6883280B996C4E /* libPods-CCDropboxApp-Dropbox-iOS-SDK.a */,
+				157BE74E6DE6865F7072247B /* libPods-CCDropboxApp-MBProgressHUD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0D4A86991F1F9E4664FD2B9 /* Pods-CCDropboxApp */ = {
+			isa = PBXGroup;
+			children = (
+				87AF1030622FADFDE678C72F /* Pods-CCDropboxApp-acknowledgements.markdown */,
+				805273BFA2A38C2BD0D4BDD3 /* Pods-CCDropboxApp-acknowledgements.plist */,
+				9C225FF58E80C4FEBA999D17 /* Pods-CCDropboxApp-dummy.m */,
+				1AF5FEFB330B08990ACB86CA /* Pods-CCDropboxApp-environment.h */,
+				D42E1AF1E48CE30A391F830D /* Pods-CCDropboxApp-resources.sh */,
+				43D29838633845595A34BB30 /* Pods-CCDropboxApp.debug.xcconfig */,
+				A4C8A61C2C4B5AC1B941976B /* Pods-CCDropboxApp.release.xcconfig */,
+			);
+			name = "Pods-CCDropboxApp";
+			path = "Target Support Files/Pods-CCDropboxApp";
+			sourceTree = "<group>";
+		};
+		F0BEC4BB82D22AF7D17B2C1E /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				410C19D93C0E12DDA64616BE /* AFURLRequestSerialization.h */,
+				6E0DC7F7994A1E589A53FEE7 /* AFURLRequestSerialization.m */,
+				43AC8C8C80C58BCAEF55E07F /* AFURLResponseSerialization.h */,
+				CC8C83BC45B62AAC0756CDDD /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6F30E899EE5BC26E14E40476 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBB78BDB3098FE75EC69137 /* DBAccountInfo.h in Headers */,
+				7BF259DAFAD85574E9D7222D /* DBBase64Transcoder.h in Headers */,
+				ED7BDC3812572C9B6AF6304D /* DBDefines.h in Headers */,
+				5277B96DC206E68EAC67D344 /* DBDeltaEntry.h in Headers */,
+				EC83B462C2C32938E8EE19A1 /* DBError.h in Headers */,
+				164CFA8241A4D2F8FEC78739 /* DBJSON.h in Headers */,
+				B566B4990A618C4038EEC481 /* DBJsonBase.h in Headers */,
+				A292950A1B082C30AEFBA5C7 /* DBJsonParser.h in Headers */,
+				B240C0E524E8F0B151D8D168 /* DBJsonWriter.h in Headers */,
+				74963DA2F3554384C59BD7C8 /* DBLog.h in Headers */,
+				D6D027078405C07BEBC39F32 /* DBMetadata.h in Headers */,
+				651D901C00294F19E850DB67 /* DBQuota.h in Headers */,
+				130C82BCEEBCAC3C933A0653 /* DBRequest.h in Headers */,
+				894786E332B9F2F9BC48C498 /* DBRestClient.h in Headers */,
+				E7BC87FF60C074854B994013 /* DBSession+iOS.h in Headers */,
+				D42629E1B075565E72E5EEFC /* DBSession.h in Headers */,
+				44F80450350B79512643A7DC /* DropboxSDK.h in Headers */,
+				5AD847EC7EBB02C3F61627AE /* JSON.h in Headers */,
+				E04B95B426DE8DD3912A3E63 /* MPDebug.h in Headers */,
+				DFC739C82D22C03D580494A1 /* MPOAuth.h in Headers */,
+				7DD703F65AFF41B439771570 /* MPOAuthAPI.h in Headers */,
+				5AAFBAAA069CBBD9DB7FD33E /* MPOAuthAPIRequestLoader.h in Headers */,
+				B0B0A5F9831001113BE40B5A /* MPOAuthAuthenticationMethod.h in Headers */,
+				B1B5DCAABC8DB0BEE712E047 /* MPOAuthAuthenticationMethodOAuth.h in Headers */,
+				BD4A6F1C9B2391E1D91D1A2A /* MPOAuthConnection.h in Headers */,
+				C268B051D3A9ACAC657F31E2 /* MPOAuthCredentialConcreteStore+KeychainAdditions.h in Headers */,
+				45A491ADAB6B628595D641C6 /* MPOAuthCredentialConcreteStore.h in Headers */,
+				5D4EE2659A313FE0A42472AE /* MPOAuthCredentialStore.h in Headers */,
+				3340E5F2786B241CDF2039AA /* MPOAuthParameterFactory.h in Headers */,
+				6590337AAB2A4DCD8476243D /* MPOAuthSignatureParameter.h in Headers */,
+				473EE2ADF6F4F5817C73C09E /* MPOAuthURLRequest.h in Headers */,
+				B12763DEDABC20E5208363D1 /* MPOAuthURLResponse.h in Headers */,
+				3DCE63BD3A18D376C0809FBF /* MPURLRequestParameter.h in Headers */,
+				927D389B20956F1525972C93 /* NSDictionary+Dropbox.h in Headers */,
+				F2E04A1467BA43D4E5D4AE02 /* NSObject+DBJSON.h in Headers */,
+				F0D0450CCBA0EB875C329A0E /* NSString+DBJSON.h in Headers */,
+				78E1442219E300227DA53C3B /* NSString+Dropbox.h in Headers */,
+				D1AD47E7B3DAEE29695E2CA2 /* NSString+URLEscapingAdditions.h in Headers */,
+				EF36A83482EDC33B8030C72B /* NSURL+MPURLParameterAdditions.h in Headers */,
+				7DB8C362C2984D4A54D1575B /* NSURLResponse+Encoding.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5E75EE30E1933FEBCC0798 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63F8B73ACC387F7F3D88431 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D9547CF8161473C32345B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23FBF953C22CACDEB029B97 /* AFHTTPRequestOperation.h in Headers */,
+				911528A8A73C44906A70CDFC /* AFHTTPRequestOperationManager.h in Headers */,
+				E0B8F8E11AD2E6807A90B099 /* AFHTTPSessionManager.h in Headers */,
+				4C5A8F1B21FD9F76C594CBC8 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				868DF644E1F011DBEFAB001F /* AFNetworkReachabilityManager.h in Headers */,
+				70A62664DD2395631E27501E /* AFNetworking.h in Headers */,
+				A5A22E9479E5E68F3D46747B /* AFSecurityPolicy.h in Headers */,
+				252217D745C5CB17205FBE79 /* AFURLConnectionOperation.h in Headers */,
+				4F0F93ED37FD0FD686BE2622 /* AFURLRequestSerialization.h in Headers */,
+				C41721EB7CB7F6A14EF732E7 /* AFURLResponseSerialization.h in Headers */,
+				1B9A3829C42A604F70B2559A /* AFURLSessionManager.h in Headers */,
+				54A26DA69ED434F9C63533F6 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				CF342F495F6AD56D82100C94 /* UIAlertView+AFNetworking.h in Headers */,
+				F0E82550660DB639CBB9274B /* UIButton+AFNetworking.h in Headers */,
+				CB27B4F212E7A3DFCCC31F4F /* UIImageView+AFNetworking.h in Headers */,
+				79D436F59AD04B861EA1CE8F /* UIKit+AFNetworking.h in Headers */,
+				7B676B4D1C050CBD95963538 /* UIProgressView+AFNetworking.h in Headers */,
+				83628ED9A58B41B71F971720 /* UIRefreshControl+AFNetworking.h in Headers */,
+				E806DD99B6B3F0D1D5D727B9 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0321BEE1A62603D17A197097 /* Pods-CCDropboxApp-Dropbox-iOS-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D5C5EC62F80605D8E66716B /* Build configuration list for PBXNativeTarget "Pods-CCDropboxApp-Dropbox-iOS-SDK" */;
+			buildPhases = (
+				D7E2938B7C3E7FF81C5F0F32 /* Sources */,
+				868356015303888E6F0E53B2 /* Frameworks */,
+				6F30E899EE5BC26E14E40476 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CCDropboxApp-Dropbox-iOS-SDK";
+			productName = "Pods-CCDropboxApp-Dropbox-iOS-SDK";
+			productReference = A7C4C4FEEC6883280B996C4E /* libPods-CCDropboxApp-Dropbox-iOS-SDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4E23ED04592D24566F951CEF /* Pods-CCDropboxApp-MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AA7DF4B0D1056BD1AFB231B /* Build configuration list for PBXNativeTarget "Pods-CCDropboxApp-MBProgressHUD" */;
+			buildPhases = (
+				65001B2EF4652A9AF3161131 /* Sources */,
+				AB050581C40B324FAA055D16 /* Frameworks */,
+				8D5E75EE30E1933FEBCC0798 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CCDropboxApp-MBProgressHUD";
+			productName = "Pods-CCDropboxApp-MBProgressHUD";
+			productReference = 157BE74E6DE6865F7072247B /* libPods-CCDropboxApp-MBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		678F79F4D8B46FC7423C6F16 /* Pods-CCDropboxApp-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5072633383753C37CFFBA086 /* Build configuration list for PBXNativeTarget "Pods-CCDropboxApp-AFNetworking" */;
+			buildPhases = (
+				8AC4B6ED98DE97E30577BE0C /* Sources */,
+				4050F35708346861B39CF683 /* Frameworks */,
+				E8D9547CF8161473C32345B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CCDropboxApp-AFNetworking";
+			productName = "Pods-CCDropboxApp-AFNetworking";
+			productReference = 3F31E9642F50A27DE34CDEE2 /* libPods-CCDropboxApp-AFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B87D13D76F70B90D8699C209 /* Pods-CCDropboxApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49051B1E0CB2C5041F870CB8 /* Build configuration list for PBXNativeTarget "Pods-CCDropboxApp" */;
+			buildPhases = (
+				B0910F151C85FECBEDD1CECB /* Sources */,
+				0DE16CB50573F4E64DCF1857 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				808ECF70D090AC88C148CF44 /* PBXTargetDependency */,
+				C5D22BC09A06FC6B346D8AC2 /* PBXTargetDependency */,
+				B63474B1C4DFC8ADEAD8098A /* PBXTargetDependency */,
+			);
+			name = "Pods-CCDropboxApp";
+			productName = "Pods-CCDropboxApp";
+			productReference = 145C55F56FA8B1C2D2C91C28 /* libPods-CCDropboxApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7666E48F8CD56FC476B75715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = E5FA68926326169544438307 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84E51DC4A7BF0D966C455CDE;
+			productRefGroup = C5FF2D7BAFF922B6A2B6D147 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B87D13D76F70B90D8699C209 /* Pods-CCDropboxApp */,
+				678F79F4D8B46FC7423C6F16 /* Pods-CCDropboxApp-AFNetworking */,
+				0321BEE1A62603D17A197097 /* Pods-CCDropboxApp-Dropbox-iOS-SDK */,
+				4E23ED04592D24566F951CEF /* Pods-CCDropboxApp-MBProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65001B2EF4652A9AF3161131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22E363F24ACBD8D3793778C /* MBProgressHUD.m in Sources */,
+				AF4E40B84BEEDE019EFD08FC /* Pods-CCDropboxApp-MBProgressHUD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC4B6ED98DE97E30577BE0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F86A174F00F6601A1C9AF32 /* AFHTTPRequestOperation.m in Sources */,
+				F201E25FD253C8A16AC2A8B2 /* AFHTTPRequestOperationManager.m in Sources */,
+				2D199E4465C5AC61BE6B64E1 /* AFHTTPSessionManager.m in Sources */,
+				AA90904241477359FC801E2C /* AFNetworkActivityIndicatorManager.m in Sources */,
+				729E3C963943F822EE93EA58 /* AFNetworkReachabilityManager.m in Sources */,
+				D4E85FF21407B6B1A1B40F3B /* AFSecurityPolicy.m in Sources */,
+				4E6067B44D67AAA70AB7EC72 /* AFURLConnectionOperation.m in Sources */,
+				05D90B3E824CEE81583EA7DB /* AFURLRequestSerialization.m in Sources */,
+				BAB7BE1CC031616970C0D8D7 /* AFURLResponseSerialization.m in Sources */,
+				C96F29127C1A8B785D790D64 /* AFURLSessionManager.m in Sources */,
+				21FE6281385D1FE2C0369970 /* Pods-CCDropboxApp-AFNetworking-dummy.m in Sources */,
+				13978BA981AAC5EFBE084FFA /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				9B6B9052D1791B7AAC9726C5 /* UIAlertView+AFNetworking.m in Sources */,
+				B698416D3AF693B917853590 /* UIButton+AFNetworking.m in Sources */,
+				6505F65AAFA24E52DCBF1DB2 /* UIImageView+AFNetworking.m in Sources */,
+				88EA0B6620FCC104160A32DF /* UIProgressView+AFNetworking.m in Sources */,
+				0E596692CCED056F8513E1FB /* UIRefreshControl+AFNetworking.m in Sources */,
+				8BFEA559973E732F4C9452DB /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0910F151C85FECBEDD1CECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B0EDB2BC080142B87210D8 /* Pods-CCDropboxApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E2938B7C3E7FF81C5F0F32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201EDD058ECFDA39118AC9D7 /* Pods-CCDropboxApp-Dropbox-iOS-SDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		808ECF70D090AC88C148CF44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CCDropboxApp-AFNetworking";
+			target = 678F79F4D8B46FC7423C6F16 /* Pods-CCDropboxApp-AFNetworking */;
+			targetProxy = 8E23E70F809EF04A9C5E4E7F /* PBXContainerItemProxy */;
+		};
+		B63474B1C4DFC8ADEAD8098A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CCDropboxApp-MBProgressHUD";
+			target = 4E23ED04592D24566F951CEF /* Pods-CCDropboxApp-MBProgressHUD */;
+			targetProxy = F8F0E1D0484CF704F61A6906 /* PBXContainerItemProxy */;
+		};
+		C5D22BC09A06FC6B346D8AC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CCDropboxApp-Dropbox-iOS-SDK";
+			target = 0321BEE1A62603D17A197097 /* Pods-CCDropboxApp-Dropbox-iOS-SDK */;
+			targetProxy = 6C4C4B651C31D9523E79A379 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0092709F07D9BC8B5D2D2626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D320BB49ECBC22F7900E0DF /* Pods-CCDropboxApp-MBProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ARCHS = armv7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CCDropboxApp-MBProgressHUD/Pods-CCDropboxApp-MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2CB280982E5712DB5801014F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		32E47561140B918417C22976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C8A61C2C4B5AC1B941976B /* Pods-CCDropboxApp.release.xcconfig */;
+			buildSettings = {
+				ARCHS = armv7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4A3B73E4D6D413ACF55D27A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A2E0FB0A8FDDDFBBAFE7FCF /* Pods-CCDropboxApp-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ARCHS = armv7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CCDropboxApp-AFNetworking/Pods-CCDropboxApp-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		78295FD2AB06215820B6CFEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43D29838633845595A34BB30 /* Pods-CCDropboxApp.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = armv7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		815094D58FBEFD34DB6EE210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F85D951444A49E2A776CA01 /* Pods-CCDropboxApp-Dropbox-iOS-SDK-Private.xcconfig */;
+			buildSettings = {
+				ARCHS = armv7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CCDropboxApp-Dropbox-iOS-SDK/Pods-CCDropboxApp-Dropbox-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D7B7CB4391481423A393C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D320BB49ECBC22F7900E0DF /* Pods-CCDropboxApp-MBProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ARCHS = armv7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CCDropboxApp-MBProgressHUD/Pods-CCDropboxApp-MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A5693D8340B0FC06D4368974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A2E0FB0A8FDDDFBBAFE7FCF /* Pods-CCDropboxApp-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ARCHS = armv7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CCDropboxApp-AFNetworking/Pods-CCDropboxApp-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DB57DD57BF423EA7BE87C7E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA366322A53F9CA44BE42F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F85D951444A49E2A776CA01 /* Pods-CCDropboxApp-Dropbox-iOS-SDK-Private.xcconfig */;
+			buildSettings = {
+				ARCHS = armv7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CCDropboxApp-Dropbox-iOS-SDK/Pods-CCDropboxApp-Dropbox-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AA7DF4B0D1056BD1AFB231B /* Build configuration list for PBXNativeTarget "Pods-CCDropboxApp-MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D7B7CB4391481423A393C3E /* Debug */,
+				0092709F07D9BC8B5D2D2626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49051B1E0CB2C5041F870CB8 /* Build configuration list for PBXNativeTarget "Pods-CCDropboxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78295FD2AB06215820B6CFEC /* Debug */,
+				32E47561140B918417C22976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5072633383753C37CFFBA086 /* Build configuration list for PBXNativeTarget "Pods-CCDropboxApp-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3B73E4D6D413ACF55D27A4 /* Debug */,
+				A5693D8340B0FC06D4368974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D5C5EC62F80605D8E66716B /* Build configuration list for PBXNativeTarget "Pods-CCDropboxApp-Dropbox-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815094D58FBEFD34DB6EE210 /* Debug */,
+				FA366322A53F9CA44BE42F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5FA68926326169544438307 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CB280982E5712DB5801014F /* Debug */,
+				DB57DD57BF423EA7BE87C7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7666E48F8CD56FC476B75715 /* Project object */;
+}

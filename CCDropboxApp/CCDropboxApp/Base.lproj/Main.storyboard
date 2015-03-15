@@ -1,25 +1,208 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="a0K-jm-l88">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6246"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--Upload to Dropbox-->
+        <scene sceneID="sdj-BG-7w7">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CCUploadVC" title="Upload to Dropbox" id="Ewa-Nu-nxX" customClass="CCUploadVC" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="JLG-WI-vyz"/>
+                        <viewControllerLayoutGuide type="bottom" id="kRc-MB-jQY"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <view key="view" contentMode="scaleToFill" id="UH7-o7-we5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="GxA-5z-dWo">
+                                <rect key="frame" x="15" y="151" width="290" height="2"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jaw-29-W1G" userLabel="FIle Status">
+                                <rect key="frame" x="15" y="122" width="290" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="LNr-h1-k0J"/>
+                                    <constraint firstAttribute="width" constant="290" id="Lu2-L0-9Np"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Jaw-29-W1G" firstAttribute="leading" secondItem="UH7-o7-we5" secondAttribute="leading" constant="15" id="Nqp-is-gP2"/>
+                            <constraint firstAttribute="trailing" secondItem="Jaw-29-W1G" secondAttribute="trailing" constant="15" id="eyf-XP-Pu0"/>
+                            <constraint firstItem="Jaw-29-W1G" firstAttribute="top" secondItem="JLG-WI-vyz" secondAttribute="bottom" constant="58" id="tAX-Wg-e7T"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="eW8-fn-RFy"/>
+                    <connections>
+                        <outlet property="uploadProgress" destination="GxA-5z-dWo" id="gdL-T8-4pp"/>
+                        <outlet property="uploadStatus" destination="Jaw-29-W1G" id="EFB-xS-9fi"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nIL-9U-fvI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1473" y="1123"/>
+        </scene>
+        <!--BrowseVC-->
+        <scene sceneID="nM7-bN-bJJ">
+            <objects>
+                <viewController storyboardIdentifier="CCBrowseVC" automaticallyAdjustsScrollViewInsets="NO" id="1Ss-P9-Ede" customClass="CCBrowseVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hSA-t3-eeA"/>
+                        <viewControllerLayoutGuide type="bottom" id="KPx-UV-OgD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IwI-ZF-A1z">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="hkB-rr-eOM">
+                                <rect key="frame" x="0.0" y="64" width="320" height="456"/>
+                                <inset key="separatorInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DBContentCell" rowHeight="50" id="F6K-ms-h2i" customClass="CCContentCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="F6K-ms-h2i" id="sPw-gC-Cro">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P9p-xf-K5A" userLabel="File Icon Image">
+                                                    <rect key="frame" x="10" y="5" width="40" height="40"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrP-k6-nCr" userLabel="File name Label">
+                                                    <rect key="frame" x="58" y="14" width="240" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="fileIconImgview" destination="P9p-xf-K5A" id="iKb-Sp-Cn8"/>
+                                            <outlet property="filenameLbl" destination="mrP-k6-nCr" id="LYp-HN-HnL"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="1Ss-P9-Ede" id="KqA-tx-4cw"/>
+                                    <outlet property="delegate" destination="1Ss-P9-Ede" id="kAT-l4-Ns5"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="hkB-rr-eOM" secondAttribute="bottom" constant="48" id="Hbx-me-UQy"/>
+                            <constraint firstItem="hkB-rr-eOM" firstAttribute="leading" secondItem="IwI-ZF-A1z" secondAttribute="leading" id="oHx-QF-RTN"/>
+                            <constraint firstAttribute="trailing" secondItem="hkB-rr-eOM" secondAttribute="trailing" id="pxX-9n-tLZ"/>
+                            <constraint firstItem="hkB-rr-eOM" firstAttribute="top" secondItem="hSA-t3-eeA" secondAttribute="bottom" id="yq4-Ls-F8n"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gsm-NN-bnR"/>
+                    <connections>
+                        <outlet property="contentTblview" destination="hkB-rr-eOM" id="N6n-ck-tVv"/>
+                        <segue destination="kyz-bM-Yzk" kind="show" identifier="ShowPhotoDetail" id="loA-Q6-Eqw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YHn-eq-tn2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1473" y="362"/>
+        </scene>
+        <!--Photo DetailVC-->
+        <scene sceneID="Yh6-WH-sB9">
+            <objects>
+                <viewController storyboardIdentifier="CCPhotoDetailVC" automaticallyAdjustsScrollViewInsets="NO" id="kyz-bM-Yzk" customClass="CCPhotoDetailVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2tb-Fm-jJh"/>
+                        <viewControllerLayoutGuide type="bottom" id="SW9-3P-t0m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dXf-5l-fie">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5b9-0Z-t0t">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5b9-0Z-t0t" secondAttribute="trailing" id="5GZ-Oe-p2T"/>
+                            <constraint firstItem="5b9-0Z-t0t" firstAttribute="leading" secondItem="dXf-5l-fie" secondAttribute="leading" id="OpU-IK-wZj"/>
+                            <constraint firstItem="5b9-0Z-t0t" firstAttribute="top" secondItem="2tb-Fm-jJh" secondAttribute="bottom" id="QWx-tr-sji"/>
+                            <constraint firstAttribute="bottom" secondItem="5b9-0Z-t0t" secondAttribute="bottom" id="vd7-81-1fc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="photoImgview" destination="5b9-0Z-t0t" id="od9-IU-09C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZeV-kU-y0S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1916" y="362"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="CFf-gj-CUp">
+            <objects>
+                <tabBarController id="a0K-jm-l88" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="e1P-Zt-gKv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Pp7-z3-udM" kind="relationship" relationship="viewControllers" id="3a7-RF-8be"/>
+                        <segue destination="9YL-KY-j7V" kind="relationship" relationship="viewControllers" id="8Mf-tQ-g45"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="30K-aC-JaU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="364" y="846"/>
+        </scene>
+        <!--Browse Content-->
+        <scene sceneID="O9f-Z7-RT4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Pp7-z3-udM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Browse Content" id="6Sp-f5-jtr">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-20"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PzC-Wl-L5Y">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1Ss-P9-Ede" kind="relationship" relationship="rootViewController" id="kw5-i3-1GS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J08-8U-kcE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="941" y="362"/>
+        </scene>
+        <!--Upload to Dropbox-->
+        <scene sceneID="qze-43-jpr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9YL-KY-j7V" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Upload to Dropbox" id="EwE-1f-k4m">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-20"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="N3l-Zk-eYK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Ewa-Nu-nxX" kind="relationship" relationship="rootViewController" id="Co2-cm-DiP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VGt-cc-UTg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="941" y="1123"/>
         </scene>
     </scenes>
 </document>
